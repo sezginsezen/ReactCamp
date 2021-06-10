@@ -5,7 +5,7 @@ export default function SignedIn({ signOut }) {
     return (
         <div>
             <Menu.Item>
-                <Image avatar spaced="right" src="https://img2.pngindir.com/20180402/bje/kisspng-computer-icons-avatar-login-user-avatar-5ac207e69ecd41.2588125315226654466505.jpg" />
+                <Image avatar spaced="right" src="https://www.jing.fm/clipimg/full/398-3981675_avatar-for-login-form.png" />
                 <Dropdown pointing="top left" text="Sezgin">
                     <Dropdown.Menu>
                         <Dropdown.Item text="Bilgilerim" icon="info" />
