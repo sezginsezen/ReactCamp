@@ -12,7 +12,7 @@ export default function ProductDetail() {
     useEffect(() => {
         let productService = new ProductService()
         productService.getByProductName(name).then(result => setProduct(result.data.data))
-    }, [])
+    })
 
     return (
         <div>
@@ -28,16 +28,16 @@ export default function ProductDetail() {
                         <Card.Meta>{product.categoryName}</Card.Meta>
                         <Card.Description>
                             Jenny requested permission to view your contact details
-        </Card.Description>
+                        </Card.Description>
                     </Card.Content>
                     <Card.Content extra>
                         <div className='ui two buttons'>
                             <Button basic color='green'>
                                 Approve
-          </Button>
+                            </Button>
                             <Button basic color='red'>
                                 Decline
-          </Button>
+                            </Button>
                         </div>
                     </Card.Content>
                 </Card>
